@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(196, 196, 196);
+} 
+.forn{
+    position: absolute;
+    top: 10mm;
+    left: 30mm;
+}
+.caminhao{
+    position: absolute;
+    top: 12mm;
+    width: 70px;
+}
+.h2{
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    bottom: 0mm;
+    background-color: rgb(61, 61, 255);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    padding: 30px;
+    padding-top: 40px;
+    height: 90px;
+    width:335mm;
+}
+.search{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: white;
+    background-color: rgb(23, 105, 100);
+    position:absolute;
+    top:45px ;
+    left: 900px;
+    padding: 4mm 8mm 4mm;
+    border-radius: 9px;
+    border: 2px solid rgb(23, 105, 100);   
+    cursor: pointer;  
+    transition: background .3s; 
+} 
+.save{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: white;
+    background-color: rgb(23, 105, 100);
+    position:absolute;
+    top:45px ;
+    left: 1100px;
+    padding: 4mm 13mm 4mm ;
+    border-radius: 9px; 
+    border: 2px solid rgb(23, 105, 100);   
+    cursor: pointer;   
+    transition: background .3s;
+}
+button:hover{
+    background-color: rgb(116, 158, 137);
+}
+.fornecedor{
+    position: absolute;
+    top: 52mm;  
+}
+.name{
+    position: absolute;
+    top: 61mm;  
+}
+.tp{
+    position: absolute;
+    top: 61mm; 
+    left: 190mm;
+}
+.cpf{
+    position: absolute;
+    top: 69mm; 
+}
+.rg{
+    position: absolute;
+    top: 69mm; 
+    left: 148mm;
+}
+.cep{
+    position: absolute;
+    top: 77mm;
+    left: 4mm;
+}
+.cid{
+    position: absolute;
+    top: 77mm;
+    left: 69mm;
+}
+.uf{
+    position: absolute;
+    top: 77mm;
+    left: 140mm;
+}
+.bairro{
+    position: absolute;
+    top: 77mm;
+    left: 205mm;
+}
+.endereco{
+    position: absolute;
+    top: 85mm;
+}
+.number{
+    position: absolute;
+    top: 85mm;
+    left: 195mm;
+}
+.comp{
+    position: absolute;
+    top: 93mm;
+}
+.cel{
+    position: absolute;
+    top: 101mm;
+}
+.email{
+    position: absolute;
+    top: 101mm;
+    left: 70mm;
+}
+.tel{
+    position: absolute;
+    top: 109mm;
+}
+.site{
+    position: absolute;
+    top: 109mm;
+    left:72mm ;
+}
+.obs{
+    position: absolute;
+    top: 119mm;
+}
+input{
+    font-size: 11pt;
+    border:1px solid rgb(170, 170, 170);
+}
+.texto1{
+    width: 31cm;
+}
+.texto2{
+    width: 17cm;
+}
+.texto3{
+    width: 50mm ;
+}
+.texto4{
+    width: 12cm;
+}
+.texto5{
+    width: 12cm;
+}
+.texto6{
+    width: 5cm;
+} 
+.texto7{
+    width: 5cm;
+}
+.texto8{
+    width: 5cm ;
+}
+.texto9{
+    width: 10cm;
+}
+.texto10{
+    width: 17cm;
+}
+.texto11{
+    width: 5cm;
+}
+.texto12{
+    width: 20cm;
+}
+.texto13{
+    width: 5cm ;
+}
+.texto14{
+    width: 20cm;
+}
+.texto15{
+    width: 5cm;
+}
+.texto16{
+    width: 20cm;
+}
+.texto17{
+    width: 24cm;
+    padding-bottom: 35mm;
+ }
