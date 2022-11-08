@@ -1,0 +1,155 @@
+body{
+    background-image: url(FundoRealizar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.certo{
+    position:absolute;
+    top: 40mm;
+    left: 6mm;
+    width: 18mm;
+}
+div{
+    color: black;
+}
+.form1{
+    position: absolute;
+    top: 10mm;
+    left: 3mm;
+    padding: 70mm 65mm 70mm;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 20px;   
+}
+.form2{
+    position: absolute;
+    top: 50mm;
+    left: 13mm;
+    padding: 45mm 55mm 45mm;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 20px;
+}
+.div1{
+    position:absolute;
+    top: 0mm;
+    bottom: 0;
+    left: 0mm;
+    padding: 88mm 70mm;
+    background-color: white;
+}
+.obrigado{
+    position: absolute; 
+    font-size: 16pt;
+    font-family: serif;
+    top: 10mm;
+    left: 13mm;
+    color: black;
+}
+.volte{
+    position: absolute;
+    font-size: 19pt;
+    top: 20mm;
+    left: 38mm;
+}
+.comprovante{
+    position: absolute;
+    top: 5mm;
+    left: 33mm;
+    font-size: 16pt;
+    color: black;
+}
+.nome{
+    position: absolute;
+    align-items: center;
+    font-family: serif;
+    font-size: 12pt;
+    top: 14mm;
+    left: 34mm;
+    text-align: center;
+}
+.cpf{
+    position: absolute;
+    font-family: serif;
+    top: 20mm;
+    left: 35mm;
+}
+.data{
+    position: absolute;
+    font-family: serif;
+    top: 26mm;
+    left: 38mm;
+}
+.subtotal{
+    position: absolute;
+    top: 88mm;
+    left: 17mm;
+    font-size: 12pt;
+    color: black;
+}
+.desconto{
+    position: absolute;
+    top: 96mm;
+    left: 17mm;
+    font-size: 12pt;
+    color: black;
+}
+.total{
+    position: absolute;
+    top: 104mm;
+    left: 17mm;
+    font-size: 12pt;
+    color: black; 
+}
+.valor{
+    position: absolute;
+    top: 112mm;
+    left: 17mm;
+    font-size: 12pt;
+    color: black;
+}
+.troco{
+    position: absolute;
+    top: 120mm;
+    left: 17mm;
+    font-size: 12pt;
+    color: black;
+}
+.sub{
+    position: absolute;
+    top: 87mm;
+    left: 10cm;
+}
+.des{
+    position: absolute;
+    top: 95mm;
+    left: 10cm;
+}
+.tot{
+    position: absolute;
+    top: 104mm;
+    left: 10cm;
+}
+.val{
+    position: absolute;
+    top: 112mm;
+    left: 10cm;
+}
+.tro{
+    position: absolute;
+    top: 120mm;
+    left: 10cm;
+}
+a{
+    position: absolute;
+    color: white;
+    background-color: rgb(33, 168, 33);
+    top: 155mm;
+    left: 30mm;
+    padding: 10px 60px 10px;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    background-color: rgb(148, 147, 147);
+}

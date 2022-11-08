@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+.h2{
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    background-color: rgb(61, 61, 255);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    padding: 30px 33px;
+    padding-top: 40px;
+    height: 90px;
+    width:333mm;
+}
+label{
+    position: absolute;
+    bottom: 35px;
+    font-size: 12pt;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inicial{
+    position: absolute;
+    top: 65mm; 
+    left: 10mm;
+}
+.final{
+    position: absolute;
+    top: 65mm;
+    left: 90mm;
+}
+input{
+    width: 6cm;
+    height: 7mm;
+}
+button{
+    position: absolute;
+    top: 70mm;
+    left: 170mm;
+    background-color: rgb(51, 51, 255);
+    color: white;
+    padding: 10px 40px 10px;
+    border: 2px solid rgb(99, 99, 99);
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(153, 153, 153);
+}

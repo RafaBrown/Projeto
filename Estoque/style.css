@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(168, 168, 168);
+
+}
+span{
+    position:absolute;   
+    top: 20mm;
+    left: 20cm;  
+                                                                                                                                                                                                                                                                                            
+}
+.hr{
+    position: absolute;
+    top: 40mm;
+    padding: 0px 174mm;
+}
+.hr2{
+    position: absolute;
+    top: 60mm;
+    padding: 0px 174mm;
+
+}
+.emote{
+    position: absolute;
+    top: 14mm;
+    left: 7mm;
+    font-size: 25px;
+}
+.emote2{
+    position: absolute;
+    top: 9mm;
+    left: 10mm;
+    font-size: 25px;
+}
+
+.h2{
+    text-transform: uppercase;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif ;
+    top: 8mm;
+    left: 14mm;
+    color: white;
+}
+.num{
+    position: absolute;
+    top: 35mm;
+    left: 308mm;
+    width: 30px;
+}
+.buscaI{
+    position: absolute;
+    top: 45mm ;
+    left:25mm ;
+    color: white;
+}
+.dataI{
+    position: absolute;
+    top: 51mm ;
+    left: 25mm ;
+    width: 70mm;
+    height: 25px;
+    border: 0px;
+    border-radius: 2px;
+    color:rgb(97, 97, 97);
+}
+.buscaF{
+    position: absolute;
+    top: 45mm ;
+    left:115mm ;
+    color: white;
+}
+.dataF{
+    position: absolute;
+    top: 51mm ;
+    left:115mm ;
+    width: 70mm;
+    height: 25px;
+    border: 0px;
+    border-radius: 2px;
+    color: rgb(97, 97, 97);
+}
+.resul{
+    position: absolute;
+    top: 35mm;
+    left: 320mm;
+    color: white;
+}
+.enviar{
+    position:absolute;
+    top: 12mm;
+    left: 260mm;
+    color: white;
+    background-color: rgb(58, 231, 58);
+    padding: 5px 25px 5px;
+    border-radius: 8px;
+    border: 2px solid rgb(134, 163, 163);
+}
+.buscar{
+    position: absolute;
+    top: 49mm;
+    left: 245mm;
+    color: white;
+    background-color: rgb(128, 128, 240);
+    padding: 3px 20px 3px;
+    border-radius: 8px;
+    border: 2px solid rgb(134, 163, 163);
+}
+button:hover{
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+}
+table{
+    position: absolute;
+    top: 66mm;
+    left: 0mm;
+    width: 348mm;
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+th{
+    border-bottom: 1px solid black;
+}
+td{
+    position: relative;
+    line-height: 11mm;
+    top: 3mm;
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+

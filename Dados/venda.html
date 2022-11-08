@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Realizar Venda</title>
+</head>
+<body>
+    <form></form>
+    <table class="Produto">
+        <tr>
+            <th >CÓDIGO</th>
+            <th >ESTOQUE</th>
+            <th >DESCRIÇÃO</th>
+            <th >VALOR UNID</th>
+        </tr>
+            <tr>
+            <td>01009292</td>
+            <td>120</td>
+            <td>Hambúrguer</td>
+            <td>6,00</td>
+            </tr>
+            <tr>
+                <td>01009373</td>
+                <td>114</td>
+                <td>Hambúrguer Cheddar</td>
+                <td>6,50</td>
+            </tr>
+    </table>
+    <table class="produtos2">
+        <tr>
+            <th >QUANTIDADE</th>
+            <th >PRODUTO</th>
+            <th >VALOR UNIDADE</th>
+            <th >VALOR TOTAL</th>
+        </tr>
+            <tr>
+            <td>2</td>
+            <td>Hambúrguer Cheddar</td>
+            <td>6,00</td>
+            <td>12,00</td>
+            </tr>
+    </table>
+    <button>Buscar produtos</button>
+    <img class="barra" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAAPUlEQVRYhe3OMQ4AIAjAwOL//4yrIRpdDEtvIsBQkNQsljnLLtmr99P/7S8AxmvpLwYYYIABBhhggAGS2k1A9gYkpwQCgQAAAABJRU5ErkJggg==">
+    <span class="buscar" style='font-size:35px;'>&#128269;</span>
+    <h3 class="resultados">Resultados</h3>
+    <div class="detalhes">
+    <h2>Detalhes de Compra</h2>
+    </div>
+
+    <img class="carrinho"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAD5ElEQVRoge2awWscVRzHP+9tFinZiKZQ5b2UeggKXjx6SKHNUVTQQ/EgPQmFgv+JZyV6sIpUSqgX0Uv1sGlrPCmCRWMJhZjd3yRNDHYzBEy68/PQ3bjd7E4yM2/SPfiBJW/e/n6/9/vOm9/OvDeB/xktjPf+dVX9GPApdn8DvxpjPm02m58DejzpHR3jnGsCLoPPVRG5yIiJsUDSc7wqIqbvYyuVilfVS0AMvOu9v/hk0h1OZXx8fMkYcw54oKqX4jhe7jdqtVrbcRz/XKvVNo0xbwJntre3Pzn+dIdjshhPT08/tbOz0wROqurLURT9XlJembFZjJeXl/8BbgBYa8+XklFOMgkBUNWFzt9z4dPJT2YhxpiFTnOWjJdmmWQWIiJLgACnnHMvhU8pH5mFdLgFYIwZmTrJJaR7eY1SneQSkiRJvdM8z4jUSS4hURQtAevA86NSJ7nPpnNuHrgQMJfMqGo9iqJZyF/sAPXDTcrFGHO6284tJEmShcOtSueLbiO3kLW1td+A+0HSyYe22+3iQgA1xtwq4D8DnC3gX19fX7/XPSgiZP+5Kw8isigiPxQY+0rvcSEh1tonVfAtY8xXj+VSJFqj0bgDbBZKKR/zIrLT21FICI/W7UXqJC9X+jvGAgStA28fYjMjIouDvhCRx27KzrkZ4HZKrLsi8mN/Z9EZ6V2fpHHkcVQ11VZVP2PADk6IBz7rnLsPnMzi1J0J51yWbaUEeEFEVg8kkWXwlOBpl0JIbgwSAWGEHPXyCjHOgSLvEkSIqh7H/WSrWq1+PezLUIsi65zbBJ7N4HO2M/5Rf74/FJH3hyaQYeA08tTJbTLcg/ofSfoJJaTUOjHG3Imi6Kc0m2BCetbxZZA6GxBQSBRFv/DoPUpoHu7u7n55mFEwIUCb8PcTBT7a2NhYO8wwxLNWLzeBN1R1Loqiy4FjpxJyRvbrxBgzGzLuUQi9uTbmnPsLeLpSqfjV1VUJHH8oQWcEeAgsALTb7dcCx04ltBBU9dtO8z2OcTu1Ejrg5OTkvSRJLgPTtVptYmJi4o84jmNKfgtcyhlzzr0DXCXcibopIqk7/6VNvff+gqrOBwq3V61Wz6ysrETDDILXSBdVfavT/MZaO2WtnQK69XNtwPt8A1wb4lPd29v7IG280mbEObcGPGetnWo0Gs1O32ngT2BLRA4sjTs/3ZNDfB6IyDPDxittRoATAKo66GQNq52xFJ9UShNijPkeQFXnvPdT3vspVZ3r9H0XymffN2z6/+G9f1FVFzm4u7JlrX210Wgc+FeRPD5dSpuRZrN511r7CjAPtICWql5PSyiPT5d/Aa3qndDthsD0AAAAAElFTkSuQmCC">
+    <h4 class="itens"> Itens da Compra</h4>
+    <img class="cesta" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABqklEQVRIie2Vv24TQRCHv7lDSEhxy4mNS+igCFCFGKpUVHkQXoWGR+AFEAUNBUQJFMQKFTTQ2RnbSWdB592huaC72z2E/0qR8qtWM7u/b2duTgvX2pBkns1FUdzO8/wd8KiR6nvvn08mk/OlwN1udzuE8ArYB7bmuVxFv4D3WZa9GA6HZ81klrpMCOEtcNAC7XvvC1UVVRXvfQH0E/u2gIMQwhsSBUYB59wOcAqM8jx/PBgM9J91tajs2glwB3ioql+r+ahiEXlQLj8sCgUo23sIYGb3m/kIbGZ3y+XPRaEV/QAQkXsr8Lri+jtczrlPwO6aeceq2oP6N143FGDvcpH6jzeiKvh4A7yjCKyqPRE5XBfRzD6q6tMIXCa/tZx7AvQWjAEgIjXvG43899QhVf0M4JybO9bmXatYRJLgVSiEUKu4Bp7NZm2tXoXaKy4f8os1QM/H43HNN/U6rbzdZhZ5NofrcrKfVWPOuT0zk0ViEE90Ekx6so9EIr//jSU9o1ZnWXaSOrmMzOxLM5Y3A9Pp9KzT6dwCdoCbSzJ/Ay9Ho9HrJX2udQX1B7uGo+QYHNr0AAAAAElFTkSuQmCC">
+    
+    <hr>
+    <hr class="linha">
+
+    <div class="four">
+        <span  class="cartao">&#128181;</span>
+        <label class="valores"> Descontos: </br>
+        Subtotal:</label>
+        <h2 class="total">total a pagar:</h2>
+        <label class="reais">R$ 12,00</label>
+
+    </div>
+    <div class="five">
+    <input class="forma" type="number" placeholder="FORMA DE PAGAMENTO">
+    <button class="finalizar"> 
+        <a href="http://127.0.0.1:5500/Venda%20Finalizada/venda.html" target="_blank"> 
+            Finalizar Compra
+        </a> 
+    </button>  
+     <img class="certo" src="data:image/png;base64,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">
+     <img class="lixo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEnElEQVRoge2aPWwcRRTHf+8cO4ltMCG2z9gO4qNMQ2eJD/FR0NIjSE0DFRISDZEoSCQ6aGhxIqQ0SUsDUkpMQUOT2LFRfMZ7dwGi2I5sfPcodvfi230zO7e+u6TgX+3Nm33z/++b92bmdoU+Qc8zRoMvET4EnivovgV8zzRfyO8c9GN86YcTAK1yCfisx9u+kojP+8WhL9AqNa2iOsurhX1neU2rqFapDYNbT0iI6aD6F8E7tbTKLPAd8C4w3q9Be8Qe8CPwkUTUXZ38Qma5ifBGv5mVgnJT6rzpMueE6BwzwNco7wFTg+RWAvdRbnCCT2WL5lFDlxCdZ5oWvwELQ6XXK5RNRnlFatxLmypdHVpc5kkXASAscsil7qYj0CpN4OxQSZVHUyJm0h/dEVF+GTqdslBWHjeF/+GDuY5olavA+0PmEoqrEvFBtrFi9US4PXA6ZaE2N1tI+wkW4njItpAKtxxuVlAuoGw67AcIHwM3PFSuA58A/zrsd1EuAL+a1p6E7DuFXJE6y1S45rDflm2+RbnosINyUSK+AccYwjWpswxc6YWbKUT+5j7QMAY5l1zdcdA8lfR74LAftZ129LiTGeso6gm3HOyIxLCUv9Q1WB4TACi7Hr+pbcK0thLf2hnrEcQ5UzxCrOqQOq+w7rjr+EJGO77zQhwVK6bkgp1ULwMwzjrQNuwTCkKDXTBPf0rEnsbrl3VQazPORnL9omEvJcQK41M6z7Ssso+yZfpb5JTEIh4a9j0BZZ7TjrFrssp+ciZ6OmfVMlPLtZa0OyG3p1e7M2Ws6bWb6dMNTXxa+RGjVERWsaaHFiR8m8nkasew7iQ+Jg3bUZ+WEEVYc9znFiIRu2BOH39ECIiIK9HxJnot4WTCV37BLsFpEvpLcDkhqc98ontKLxQLseZk/LR0yBHx5AcUCbHrdirEjogG5AiOHGl7csSzhkCREDuc5/Q8YzT5k/jPsyzKRuQhTbYVRoHFQC4d+IVUzKcwQp3nk7XiD8NeVsi6gDLDC8CIMeoxIvIsa0Ar1y7eElxWSLpZtPKjxRlncQEKhCTvLqyn7hNSNkd8a8hG0XuUoqrl2nOl5dGqXKWnVsZ3EYcuFAvxVa5BTK1K7xUrvq0YeSeVZBdsryXHi4gmvos45CgVoW2UPfWuJeWEtD1Ty7PrTVE2R6Z0gbPSYIf8kTglmU926bRlhdSlwY7OM431KqMvOVJnA4yK0XLmyWQyuC8i2aoV+2ibFeuAyKycXSgUIvE6kp9C7u18manlPqfDmlhrWQYhyQ6+zWM/hZTYLKYIE2Lvc1xryURyTz5HKs4c8a0hhYkeuw6BfexdUqggnMy0z+oZplCquTs0sfHoBU3SflJjLkvG2KshFIO+fNA53kb5yTDVElJjmfZ/gBPkk3oHOASeybQfAE1g3mD4jmzzcxHHMCELLHLI3ZC+fcchi3Kv+AuJMCEgVHmA+2Q3KOwRMSn2f2RdCMqRxNHjeNVwK0QEhJdfiD+jGC6U66Fdgz9z0hnmEFYQ4xg6GKwyypJs8ldI5+CISINtRngd+AGIyrILQISwzCFvhYoA+A+0+YM9Pn6EbwAAAABJRU5ErkJggg==">
+    </div>
+
+</body>
+</html>
