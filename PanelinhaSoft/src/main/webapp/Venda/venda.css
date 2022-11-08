@@ -1,0 +1,221 @@
+table{
+    position: absolute;
+    top: 42mm;
+    left: 0mm;
+    width: 170mm;
+    text-align: center;
+    color: black;
+    border-collapse: collapse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+tr:hover{
+    background-color: rgb(202, 200, 200);
+}
+.produtos2{
+    position: absolute;
+    top: 48mm;
+    left: 171mm;
+    width: 179mm;
+    text-align: center;
+    color: black;
+    border-collapse: collapse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th{
+    background-color: rgb(211, 211, 211);
+    border: 1px solid rgb(110, 110, 110);
+}
+td{
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+.codigo{
+    position: absolute;
+    top: 38mm;
+    left:0mm;
+}
+.estoque{
+    position: absolute;
+    top: 38mm;
+    left: 34mm;
+}
+.descricao{
+    position: absolute;
+    top: 38mm;
+    left: 71mm ;
+}
+.valor{
+    position: absolute;
+    top: 38mm;
+    left: 113mm;
+}
+button{
+    position: absolute;
+    top: 3mm;
+    left: 10mm;
+    padding: 26px 220px 26px;
+    border: 1px solid ;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(108, 167, 255, 0.849);
+}
+.lixo{
+    position: absolute;
+    top: 156mm;
+    left: 55mm;
+    width: 14mm;
+    height: 15mm;
+    cursor: pointer;
+}
+.mais{
+    position: absolute;
+    top: 154mm;
+    left: 80mm;
+    width: 20mm;
+    height: 20mm;
+    cursor: pointer;
+}
+.carrinho{
+    position: absolute;
+    top: 9mm;
+    left: 20cm;
+    width: 20mm;
+    height: 15mm;
+}
+.cesta{
+    position: absolute;
+    top: 36mm;
+    left: 175mm;
+}
+.certo{
+    position: absolute;
+    top: 8mm;
+    left: 100mm;
+    width: 12mm;
+    height: 13mm;
+    cursor: pointer;
+}
+.barra{
+    position: absolute;
+    top: 4mm;
+    left: 14mm;
+    width: 14mm;
+    height: 16mm;
+}
+.buscar{
+    position: absolute;
+    top: 5mm;
+    left: 14cm;
+}
+.valores{
+    position: absolute;
+    top: 10mm;
+    left: 40mm;
+}
+.four{
+    position: absolute;
+    top: 118mm;
+    left: 171mm;
+    text-transform: uppercase;
+    padding: 15mm 339px 15mm;
+    color: white;
+    background-color: rgba(71, 71, 71, 0.705);
+}
+.five{
+    position: absolute;
+    top: 148mm;
+    left: 171mm;
+    padding: 25px 339px 22mm;
+    background-color: rgba(0, 0, 255, 0.411);
+}
+.total{
+    position: absolute;
+    top: 1mm;
+    left: 110mm;
+}
+.cartao{
+    position: absolute;
+    top: 5mm;
+    left: 6mm;
+    width: 21mm;
+}
+.reais{
+    position: absolute;
+    top: 17mm;
+    left: 130mm;
+    font-size:15pt ;
+}
+.finalizar{
+    position:absolute;
+    top: 7mm;
+    left: 108mm;
+    padding: 18px 40px 18px;
+    border: none;
+    background-color: rgb(40, 209, 40);
+    color: white;
+    font-size: 9pt;
+}
+.forma{
+    position: absolute;
+    top: 5mm;
+    left: 10mm;
+    width: 50mm;
+    height: 7mm;
+    color: rgb(255, 31, 31);
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.resultados{
+    position: absolute;
+    top: 23mm;
+    left: 12mm;
+    text-transform: uppercase;
+    color: rgb(219, 4, 4);
+    font-size: 18pt;
+}
+.detalhes{
+    position: absolute;
+    top: 0mm;
+    left: 171mm;
+    padding: 30px 198px 30px;
+    text-transform: uppercase;
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+.itens{
+    position: absolute;
+    top: 20mm;
+    left: 146mm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    padding: 40px 150px 40px;
+    color: rgb(49, 49, 49);
+}
+hr{
+    position: absolute;
+    width: 155mm;
+    left: 33px;
+    top: 35mm;
+}
+.linha{
+   position: absolute;
+   width: 169mm;
+   top: 15cm;
+   left: 1px;
+}
+form{
+    position: absolute;
+    top: 0mm;
+    left: 17cm;
+    padding: 88mm 0mm;
+    border: 1px solid;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(176, 255, 193, 0.349);
+}

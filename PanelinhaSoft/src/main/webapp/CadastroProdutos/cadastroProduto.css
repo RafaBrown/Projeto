@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(187, 187, 187);
+}
+.h2{
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    bottom: 0mm;
+    background-color: rgb(61, 61, 255);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    padding: 30px;
+    padding-top: 40px;
+    height: 90px;
+    width:333mm;
+}
+
+div{
+    color:black;
+}
+.name{
+    position: absolute;
+    top:50mm;
+    left: 10mm;
+}
+.codigo{
+    position: absolute;
+    top: 50mm ;
+    left: 60mm;
+}
+.preco{
+    position: absolute;
+    top:50mm;
+    left: 110mm;
+}
+.qtd{
+    position: absolute;
+    top:50mm;
+    left: 160mm;
+}
+.data{
+    position: absolute;
+    top:70mm;
+    left: 10mm;
+}
+
+button{
+    position: absolute;
+    top: 90mm;
+    left: 10mm;
+    color: white;
+    background-color: rgb(228, 165, 48);
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid rgb(131, 131, 131);
+}
+button:hover{
+    background-color: rgb(116, 158, 137);
+}
