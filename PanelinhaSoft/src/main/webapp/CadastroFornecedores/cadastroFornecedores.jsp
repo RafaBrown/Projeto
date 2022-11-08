@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro De Fornecedores</title>
-    <link rel ="stylesheet" href="cadastroFornecedores.css">
+	<link rel ="stylesheet" href="cadastroFornecedores.css">
+	<title>Cadastro De Fornecedores</title>
 </head>
 <body>
 	<form name="formFornecedor" action="../insertForn">
@@ -18,7 +18,7 @@
 	    <div>
 	        <div class="fornecedor">
 	            <label>ID Fornecedores</label>
-	            <input class="texto1" placeholder="Código do Fornecedor" readonly>
+	            <input class="texto1" placeholder="Cï¿½digo do Fornecedor" readonly>
 	        </div>
 	        <div class="name" >
 	            <label>Nome</label>
