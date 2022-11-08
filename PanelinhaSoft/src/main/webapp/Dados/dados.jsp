@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="h1">
+    <h1> Consumidor</h1>
+    <h5>INFORME OS DADOS DO CONSUMIDOR</h5>
+    </div>
+    <form>
+    <div class="name">
+        <label>Nome(Obrigatório)</label></br>
+        <input type="text"></br>
+    </div>
+    <div class="cpf">
+        <label>CPF(Opcional)</label></br>
+        <input type="text"></br>
+    </div>
+    <div class="email">
+        <label>E-mail(Opcional)</label></br>
+        <input type="text"></br>
+    </div>
+    <div>
+        <button>
+            <a href="http://127.0.0.1:5500/Venda/venda.html" target="_blank">
+                Avançar
+            </a>
+        </button> 
+    </div>
+    </form>
+    <div class="h4">
+    <h4 >identificar consumidor na nota</h4>
+    </div>
+</body>
+</html>
