@@ -55,23 +55,24 @@ input{
     width: 10cm ;
     height: 6mm;
 }
-button{
+.botao{
     position: absolute;
     top: 75mm;
-    left: 10mm;
+    left: 24mm;
     text-transform: uppercase;
     background-color: rgb(4, 167, 4);
     color: white;
     border-radius: 5px;
-    border: 2px solid;
+    border: 1px solid;
     border-color: rgb(104, 104, 104);
-    padding: 10px 40px 10px;
+    width: 70mm;
+    height: 12mm;
 }
 a{
     text-decoration: none;
     color: white;
 }
-button:hover{
+.botao:hover{
     cursor: pointer;
     background-color: rgb(158, 158, 158);
 }

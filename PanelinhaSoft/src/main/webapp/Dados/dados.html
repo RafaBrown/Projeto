@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Dados Cliente</title>
     <link rel="stylesheet" href="dados.css">
 </head>
 <body>
@@ -12,29 +12,26 @@
     <h1> Consumidor</h1>
     <h5>INFORME OS DADOS DO CONSUMIDOR</h5>
     </div>
-    <form>
+    <form action="">
     <div class="name">
         <label>Nome(Obrigatório)</label></br>
-        <input type="text"></br>
+        <input id="nome" name="nome" autocomplete="off" type="text"></br>
     </div>
     <div class="cpf">
         <label>CPF(Opcional)</label></br>
-        <input type="text"></br>
+        <input id="cpf" name="cpf" autocomplete="off" type="text"></br>
     </div>
     <div class="email">
         <label>E-mail(Opcional)</label></br>
-        <input type="text"></br>
+        <input id="email" name="email" autocomplete="off" type="text"></br>
     </div>
     <div>
-        <button>
-            <a href="http://127.0.0.1:5500/PanelinhaSoft/src/main/webapp/Venda/venda.html" target="_blank">
-                Avançar
-            </a>
-        </button> 
+        <input type="submit" onclick="dadosCliente()" class="botao" value="Avançar" id="send">
     </div>
     </form>
     <div class="h4">
     <h4 >identificar consumidor na nota</h4>
     </div>
+<script src="dados.js" defer></script>
 </body>
 </html>
