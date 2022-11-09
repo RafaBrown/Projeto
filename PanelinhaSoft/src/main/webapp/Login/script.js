@@ -1,28 +1,3 @@
-var nome = 'Rafael'
-        var num = '123456';
-
-    function pegarDados(){
-       login = document.dados.login.value
-       senha = document.dados.senha.value
-
-       if ((nome==login) && (num==senha))
-           alert ("Seja bem Vindo")
-       
-       else
-           alert("Login ou senha incorreto")
-}var nome = 'Rafael'
-        var num = '1234';
-
-    function pegarDados(){
-       login = document.dados.login.value
-       senha = document.dados.senha.value
-
-       if ((nome==login) && (num==senha))
-           alert ("Seja bem Vindo")
-       
-       else
-           alert("Login ou senha incorreto")
-}
 let usuario = document.querySelector('#usuario')
 let labelusuario = document.querySelector('#labelusuario')
 let validUsuario = false
@@ -65,12 +40,12 @@ senha.addEventListener('keyup', () =>{
  
 function pegarDados(){
     if(validUsuario && validSenha){
+       
+
      msgSuccess.setAttribute('style','display: block')
      msgSuccess.innerHTML = '<strong>Concluido </strong>'
      msgError.setAttribute('style','display:none')
      msgError.innerHTML =''
-
-
     
      } else{
      msgError.setAttribute('style','display:block')
@@ -79,4 +54,21 @@ function pegarDados(){
      msgSuccess.setAttribute('style','display: none')
     }
 }
+var nome = 'Rafael'
+        var num = '123456';
+
+    function pegarDados(){
+       login = document.dados.login.value
+       senha = document.dados.senha.value
+
+       if ((nome==login) && (num==senha)){
+        window.location.href='http://127.0.0.1:5500/PanelinhaSoft/src/main/webapp/Home/home.html'
+        alert ("Seja bem Vindo")
+       }else{
+           alert("Login ou senha incorreto")
+       }
+}
+
+
+ 
 
