@@ -117,12 +117,12 @@ button:hover{
 }
 .email{
     position: absolute;
-    top: 101mm;
-    left: 70mm;
+    top: 78mm;
+    left: 2mm;
 }
 .tel{
     position: absolute;
-    top: 109mm;
+    top: 87mm;
 }
 .site{
     position: absolute;

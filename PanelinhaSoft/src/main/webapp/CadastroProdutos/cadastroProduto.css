@@ -10,7 +10,7 @@ body{
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15pt;
-    padding: 30px;
+    padding: 33px;
     padding-top: 40px;
     height: 90px;
     width:333mm;
@@ -41,14 +41,18 @@ div{
 }
 .data{
     position: absolute;
-    top:70mm;
+    top:78mm;
     left: 10mm;
 }
-
+.codForn{
+    position: absolute;
+    top:64mm;
+    left: 10mm;
+}
 button{
     position: absolute;
-    top: 90mm;
-    left: 10mm;
+    top: 16mm;
+    left: 27cm;
     color: white;
     background-color: rgb(228, 165, 48);
     padding: 15px 20px 15px 20px;
