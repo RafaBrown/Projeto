@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(216, 216, 216);
+
+}
+
+
+table,td,th {
+	border:1px solid #474151;
+}
+
+table {
+	width:500px;
+	table-layout:fixed;
+	border-collapse:collapse;
+}
+
+td, th{
+	height:50px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+th{
+	background-color:#bd84db;
+	color:#fff;
+	font-size:25px;
+}
+
+tr:nth-child(even){
+	background:#d4c5e8;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Css/cadastroFornecedor.css">
+<title>Cadastro de Fornecedores</title>
+</head>
+<body>
+	<form name="formFornecedor" action="insertForn">
+	   <table> 
+	        <input type="button" value="&#128190;Salvar" class="save" onclick="subFornecedor()" >
+	    <div>
+	        <div class="fornecedor">
+	            <label>ID Fornecedore</label>
+	            <input class="texto1" placeholder="Código do Fornecedor" readonly>
+	        </div>
+	        <div class="name" >
+	            <label>Nome</label>
+	            <input class="texto2" type="text" name="nome">
+	        </div>
+	
+	        <div class="cpf">
+	            <label>CPF/CNPJ</label>
+	            <input class="texto4"  type="text" name="cpf">
+			</div>
+	
+	        <div class="email">
+	            <label>E-mail</label>
+	            <input class="texto14"  type="email" name="email">
+	        </div>
+	        <div class="tel">
+	            <label>Telefone</label>
+	            <input class="texto15" type="text" name="tel" placeholder="( )____ ____">
+	        </div>
+	
+	    </div></table></form>
+	    <script src="Scripts/submits.js"></script>
+</body>
+</html>

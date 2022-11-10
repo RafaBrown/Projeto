@@ -1,0 +1,63 @@
+body{
+    height: 97vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:white;  
+    background-image: url("FundoRealizar.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+div{
+    background-color: white;
+    position: absolute;
+    top: 0mm;
+    left: 0mm;
+    padding: 10px 50mm ;
+    padding-top: 159mm; 
+}
+h1{
+   position: absolute;
+   top: 30mm;
+   right: 25mm;
+}
+h3{
+    position: absolute;
+    top: 45mm;
+    right: 32mm;
+}
+h4{
+    position: absolute;
+    top: 97mm;
+    right: 55mm;
+}
+.texto {
+    position: absolute;
+    top: 110mm;
+    right: 20mm;
+    padding: 10px 40px 5px ;
+}
+a{
+    position: absolute;
+    top: 125mm;
+    color: white;
+    background-color: green;
+    border: 0ch;
+    border-radius: 10px;
+    padding: 17px 40px 17px 40px;
+    right: 30mm;
+    cursor: pointer;
+    text-decoration: none;
+}
+input{
+    padding: 3%;
+    padding-left: 50%;
+}
+a:hover{
+    background:#19ee05;
+}
+.user{
+    position: absolute;
+    top: 113mm;
+    left: 15mm;
+    width: 4mm;
+}

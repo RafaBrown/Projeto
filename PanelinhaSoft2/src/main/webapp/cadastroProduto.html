@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Css/cadastroProduto.css">
+<title>Cadastro de Produtos</title>
+</head>
+<body>
+
+     
+   <form name="formProduto" action="insertProd">
+	    <table> <div class="name" >
+	        <label>Nome Do Produto</label></br>
+	        <input  type="text" name="nome">
+	     </div>
+	     <div class="codigo" >
+	        <label>C�digo De Barras</label></br>
+	        <input type="text" name="codbar">
+	     </div> 
+	     <div class="preco" >
+	        <label>Pre�o De Venda</label></br>
+	        <input type="number" name="preco">
+	      </div>
+	      <div class="qtd">
+	        <label>Quantidade Total</label></br>
+	        <input  type="number" name="qntd">
+	      </div>
+	      <div class="codForn">
+	        <label>C�digo fornecedor</label></br>
+	        <input  type="number" name="codFornecedor">
+	      </div>
+    </table></form>
+    <input type="button" value="Cadastrar" onclick="subProduto()" >
+    <script src="Scripts/submits.js"></script>
+</body>
+</html>
